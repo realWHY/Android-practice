@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fragment_static</string>
+    <string name="prompt_title">和電腦猜拳</string>
+    <string name="prompt_com_play">電腦出拳 :</string>
+    <string name="prompt_my_play">玩家出拳 :</string>
+    <string name="play_scissors">剪刀</string>
+    <string name="play_stone">石頭</string>
+    <string name="play_papper">布</string>
+    <string name="result">判定輸贏:</string>
+    <string name="player_win"> u win </string>
+    <string name="player_lost"> u lost </string>
+    <string name="player_draw"> draw </string>
+
+    <string name="total_set"> all round: </string>
+    <string name="player_win_set"> player win: </string>
+    <string name="computer_win_set"> computer win: </string>
+    <string name="draw_set"> draw: </string>
+
+    <string name="btn_show_result1"> Result1: </string>
+    <string name="btn_show_result2"> Result2: </string>
+    <string name="btn_Hide_info"> Hide: </string>
+</resources>

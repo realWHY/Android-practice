@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PropertyAnimation_2</string>
+    <string name="rotate">Rotate</string>
+    <string name="transparent">transparent</string>
+    <string name="drop">drop</string>
+    <string name="demo_result">This is test text</string>
+
+</resources>

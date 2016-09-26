@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.hungyuwei.fragment_static.FragmentResult">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_set"
+        android:textSize="6sp"/>
+
+    <EditText
+        android:id="@+id/edtCountSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/computer_win_set"
+        android:textSize="6sp"/>
+
+    <EditText
+        android:id="@+id/edtCountComWin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_win_set"
+        android:textSize="6sp"/>
+
+    <EditText
+        android:id="@+id/edtCountPlayerWin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6sp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/draw_set"
+        android:textSize="6sp"/>
+
+    <EditText
+        android:id="@+id/edtCountDraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6sp"/>
+
+    <Button
+        android:id="@+id/btnBackToGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="回到遊戲畫面"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuItemSearch"
+        android:title="@string/menuItemSearch"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/menuItemRegion"
+        android:title="@string/menuItemRegion"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom"
+        android:actionLayout="@layout/select_region"
+        tools:ignore="AppCompatResource" />
+    <item android:title="BGMusic">
+        <menu>
+            <item android:id="@+id/menuPlayMusic"
+                android:title="play music"/>
+            <item android:id="@+id/menuStopMusic"
+                android:title="stop music"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menuAbout"
+        android:title="menu about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/menuExit"
+        android:title="menuExit"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+
+</menu>

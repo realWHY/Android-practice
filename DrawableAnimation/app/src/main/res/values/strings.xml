@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DrawableAnimation</string>
+    <string name="rolling_result"> Result: </string>
+</resources>

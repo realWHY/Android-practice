@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="sex">性別：</string>
+    <string name="edtSex">輸入性別</string>
+    <string name="age">年齡：</string>
+    <string name="Result">建議:</string>
+    <string name="sex_male">男</string>
+    <string name="sug_not_hurry">不急</string>
+    <string name="sug_hurry">糟糕</string>
+    <string-array name ="sex_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string name = "spn_sex_list_prompt">請選擇</string>
+    <string name="male">男生</string>
+    <string name="female">女生</string>
+    <string name="male_age_range1">smaller than 28</string>
+    <string name="male_age_range2">28 ~ 33</string>
+    <string name="male_age_range3">larger than 33</string>
+    <string name="female_age_range1">smaller then 25</string>
+    <string name="female_age_range2">25 ~ 30</string>
+    <string name="female_age_range3">larger then 30</string>
+</resources>

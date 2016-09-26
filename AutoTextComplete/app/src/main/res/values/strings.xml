@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AutoTextComplete</string>
+    <string name="input_text">Please input text</string>
+    <string name="btn_add_auto_complete_text">add auto complete text</string>
+    <string name="btn_clear_auto_complete_text">clear auto complete text</string>
+</resources>

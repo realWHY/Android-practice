@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hungyuwei.fragment_static.FragmentMain">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_title"
+        android:textSize="25sp"
+        android:textColor="#1144DD"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_com_play"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignLeft="@+id/txtTitle"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtMyplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_my_play"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignRight="@+id/txtTitle"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/txtComplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtCom"
+        android:layout_below="@id/txtCom"
+        android:textSize="30sp"
+        android:textColor="#FF00FF"/>
+
+    <ImageButton
+        android:id="@+id/btnScissors"
+        android:src="@drawable/scissor"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:scaleType="fitCenter"
+        android:text="@string/play_scissors"
+        android:layout_below="@id/txtMyplay"
+        android:layout_alignRight="@id/txtMyplay" />
+
+    <ImageButton
+        android:id="@+id/btnStone"
+        android:src="@drawable/stone"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:scaleType="fitCenter"
+        android:text="@string/play_stone"
+        android:layout_below="@id/btnScissors"
+        android:textSize="20sp"
+        android:layout_alignRight="@id/txtMyplay" />
+    <ImageButton
+        android:id="@+id/btnPapper"
+        android:src="@drawable/papper"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:scaleType="fitCenter"
+        android:text="@string/play_papper"
+        android:layout_below="@id/btnStone"
+        android:layout_alignRight="@id/txtMyplay" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:layout_below="@id/btnPapper"
+        android:layout_alignLeft="@id/txtCom"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnShowResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="顯示結果"
+        android:layout_below="@id/txtResult"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">E200_Chap4-6_Application_Menu</string>
+    <string name="label">您的選取為\n</string>
+    <string name="gender">性別</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="hobby">愛好</string>
+    <string name="hobby1">游泳</string>
+    <string name="hobby2">唱歌</string>
+    <string name="hobby3">寫Java程式</string>
+    <string name="ok">確定</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProgressBarAndMutiThread</string>
+    <string name="progressBar_default">progressBar_default</string>
+    <string name="progressBar_horizental">progressBar_horizental</string>
+    <string name="progressBar_large">progressBar_large</string>
+    <string name="progressBar_small">progressBar_small</string>
+</resources>
